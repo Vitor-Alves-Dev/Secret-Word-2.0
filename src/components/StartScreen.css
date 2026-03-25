@@ -32,13 +32,9 @@ p {
     transform: translateY(-80px);
 }
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
     .start {
     min-height: 100vh; 
-    display: flex;
-    flex-direction: column;
-    justify-content: center; 
-    align-items: center; 
-    text-align: center;
+    transform: translateY(0);
     }
 }
