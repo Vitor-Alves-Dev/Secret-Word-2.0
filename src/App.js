@@ -78,12 +78,12 @@ function App() {
    //puxar a letra certa ou remover a letra
    if(letters.includes(normalizedLetter)) {
     setGuessedLetters((actualGuessedLetters) => [
-      ...actualGuessedLetters,
+      ... actualGuessedLetters,
       normalizedLetter,
     ])
    } else {
     setWrongLetters((actualWrongLetters) => [
-      ...actualWrongLetters,
+      ... actualWrongLetters,
       normalizedLetter,
     ])
 
