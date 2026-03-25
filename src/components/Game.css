@@ -21,10 +21,10 @@
     line-height: 1.5;
     border: 2px solid #000;
     font-size: 5vw;   /* 🔥 tamanho baseado na tela */
-    height: 10vw;
-    width: 10vw;
-    max-width: 40px;
-    max-height: 40px;
+    height: 30vw;
+    width: 30vw;
+    max-width: 60px;
+    max-height: 60px;
     text-transform: uppercase;
     background-color: #fff;
     color: black;
