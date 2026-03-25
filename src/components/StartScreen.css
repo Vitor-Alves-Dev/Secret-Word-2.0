@@ -31,3 +31,14 @@ p {
     text-align: center;
     transform: translateY(-80px);
 }
+
+@media (min-width: 768px) {
+    .start {
+    height: 100vh; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    text-align: center;
+    }
+}
