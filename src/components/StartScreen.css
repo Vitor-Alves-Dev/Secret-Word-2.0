@@ -29,12 +29,5 @@ p {
     justify-content: center; 
     align-items: center; 
     text-align: center;
-    transform: translateY(-80px);
-}
-
-@media (max-width: 768px) {
-    .start {
-    min-height: 100vh; 
-    transform: translateY(0);
-    }
+    
 }
