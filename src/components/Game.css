@@ -17,11 +17,14 @@
     gap: 10px;
 }
 .letter, .blankSquare {
-    font-size: 30px;
+    
     line-height: 1.5;
     border: 2px solid #000;
-    height: 50px;
-    width: 50px;
+    font-size: 5vw;   /* 🔥 tamanho baseado na tela */
+    height: 10vw;
+    width: 10vw;
+    max-width: 40px;
+    max-height: 40px;
     text-transform: uppercase;
     background-color: #fff;
     color: black;
