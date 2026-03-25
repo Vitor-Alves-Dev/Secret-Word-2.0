@@ -53,8 +53,10 @@
 @media (min-width: 768px) {
     .letter, .blankSquare {
         font-size: 70px;
-        height: 100px;
-        width: 100px;
+        height: 60px;
+        width: 60px;
+        max-width: 40px;
+        max-height: 40px;
     }
 
     .wordContainer {
