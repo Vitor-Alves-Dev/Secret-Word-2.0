@@ -8,29 +8,37 @@
     color: #ecfa00;
 }
 .wordContainer {
-    margin: 1.5em;
-    padding: 1.5em;
-    border: 20px solid #ecfa00;
+    margin: 1em;
+    padding: 1em;
+    border: 10px solid #ecfa00;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
 }
 .letter, .blankSquare {
-    font-size: 70px;
+    font-size: 30px;
     line-height: 1.5;
-    border: 3px solid #000;
-    height: 100px;
-    width: 100px;
+    border: 2px solid #000;
+    height: 50px;
+    width: 50px;
     text-transform: uppercase;
     background-color: #fff;
     color: black;
     font-weight: bold;
-}  .letterContainer p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  .letterContainer p {
     margin-bottom: 1.2em;
 }
 
 .letterContainer form {
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
+    gap: 10px;
 }
 .letterContainer input {
     height: 50px;
@@ -38,4 +46,15 @@
     font-size: 2em;
     text-align: center;
     margin-right: 1em;
+}
+@media (min-width: 768px) {
+    .letter, .blankSquare {
+        font-size: 70px;
+        height: 100px;
+        width: 100px;
+    }
+
+    .wordContainer {
+        border: 20px solid #ecfa00;
+    }
 }
